@@ -1,0 +1,7 @@
+Team Name: Black Mesa
+Team member: Chengfeng Lin, Sining Lu, Wen-Yu Wu
+
+Proj brief summary:
+1. Finder and seeker can search for each others' existing list.
+2. Exisitng Map marker has to be selected before confirming, reason being is to limit the custom input from user to ensure accurate search.
+3. Each search will have a pop up page with searching elements.

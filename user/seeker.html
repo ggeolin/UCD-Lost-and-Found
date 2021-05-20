@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>UCD L&F</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/reset.css">
+    <!--  extra protected stylesheet for this page -->
+    <link rel="stylesheet" href="/user/seeker.css">
+    <link
+      id="favicon"
+      rel="icon"
+      href="https://cdn.glitch.com/73714b8a-3cd4-4a8b-8e92-66e25ae088cf%2FUC_Davis_Aggies_logo.svg.png?v=1590279300675"
+      type="image/x-icon"
+    />
+  </head>
+  
+  <body>
+    <div class="logo_contain">
+      <a href="./prompt.html">
+      <img src="https://cdn.glitch.com/73714b8a-3cd4-4a8b-8e92-66e25ae088cf%2FLogo.png?v=1590279825132" title="Back to main page" class="seeker_logo">
+      </a>
+    </div>
+    
+
+    <div class="seeker_main_box">
+      <h2 id="page_title">Input the lost item</h2>
+
+      <div class="seeker_form_box_1" id="seeker_formBox_1">
+        <label for="Title"> Title</label>
+        <input type="text" name="Title" id="Title">
+
+        <label for="Category">Category</label>
+        <input list="Category" name="Category" id="category">
+        <datalist id="Category">
+          <option value="Phone"></option>
+          <option value="Headphone"></option>
+          <option value="Card"></option>
+          <option value="Other"></option>
+        </datalist>
+        
+        <label for="seeker_description_box">Description</label>
+        <div class="seeker_description_box">
+          <p id="text" contenteditable="true"></p>
+        </div>
+
+        <label for="img">Select image:</label>
+        <input type="file" id="img" name="img" accept="image/*">
+
+        <button id="seeker_next_buttn">Next</button>
+
+      </div>
+
+      <div class="seeker_form_box_2" id="seeker_formBox_2">
+        <label for="date">Found date:</label>
+        <input type="date" id="date" name="date">
+
+        <label for="location">Location</label>
+        <div class="Location_box">
+          <p id="location_info"></p>
+        </div>
+        
+        <div id="map"></div>
+
+        <h2 style="font-size: 18px;">*Choose existing markers as address</h2>
+
+        <button id="confirm_buttn">Confirm Address</button>
+        <button id="submit_buttn">Submit</button>
+
+      </div>
+
+      <div class="seeker_input_form" id="seeker_input_form">
+        <label for="Title"> Title</label>
+        <input type="text" name="Title" id="search_title">
+
+        <label for="date">Lost date:</label>
+        <input type="date" id="search_date" name="date">
+
+        <label for="Category">Category</label>
+        <input list="Category" name="Category" id="search_category">
+        <datalist id="Category_">
+          <option value="Phone"></option>
+          <option value="Headphone"></option>
+          <option value="Card"></option>
+          <option value="Other"></option>
+        </datalist>
+
+        <label for="location">Location</label>
+        <div class="Location_box">
+          <p id="search_location_info"></p>
+        </div>
+
+        <div id="map2" ></div>
+
+        <h2 style="font-size: 18px;">*Choose existing markers as address</h2>
+
+        <button id="search_confirm">Confirm address</button>
+        <button id="search_submit">Search</button>
+
+      </div>
+
+     <div class="redirect_box" id="direct_buttn">
+        <p class="redirect_text">Direct to Existing Requests</p>
+
+        <img src="https://cdn.glitch.com/73714b8a-3cd4-4a8b-8e92-66e25ae088cf%2Fsearch-solid.svg?v=1590279828240" alt="" class="redirect_logo">
+                                                                                                                                          
+      </div>
+
+
+      <div class="redirect_box" id="search_buttn">
+        <p class="redirect_text">Search Existing Requests</p>
+
+        <img src="https://cdn.glitch.com/73714b8a-3cd4-4a8b-8e92-66e25ae088cf%2Fsearch-solid.svg?v=1590279828240" alt="" class="redirect_logo">
+      </div>
+      
+    </div>
+
+                                                                                                                                               
+
+  </body>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA2cExvDtlXvat5fUCBoZIzD8oSxnd68IE&callback=initMap&libraries=&v=weekly" defer></script>
+  <script src="/user/seeker.js"></script>
+</html>

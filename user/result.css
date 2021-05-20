@@ -1,0 +1,232 @@
+body{
+  background-color: white;
+  font-family: 'Montserrat',sans-serif;
+  font-weight: bold;
+  color: #142a50;
+  font-size: 20px;
+}
+
+h2 {
+  margin: auto;
+  margin-bottom: 20px;
+  font-size: 60px;
+  width: 800px;
+}
+
+.logo_contain {
+  margin: auto;
+  width: 300px;
+  height: 150px;
+  padding: 20px;
+  padding-bottom: 0px;
+}
+
+.finder_logo {
+  width: 300px;
+}
+
+.small_boxes {  /* formbox_1 */
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 800px;
+  height: 80px;
+  border-radius: 3px;
+  background-color: #feebb1;
+  /* make text unable to be selected */
+  -webkit-touch-callout: none;
+  -webkit-user-select: none; 
+  -khtml-user-select: none; 
+  -moz-user-select: none; 
+  -ms-user-select: none; 
+  user-select: none;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.small_boxes p {
+  display: inline-block;
+  margin-left: 20px;
+  line-height: 80px;
+}
+
+.small_boxes:hover {
+  border: 1px solid #142a50;
+  box-shadow: 0 5px 15px gray;
+}
+
+.big_boxes {    /* formbox_2 */
+  margin: auto;
+  margin-top: 18px;
+  margin-bottom: 18px;
+  width: 800px;
+  height: 450px;
+  border-radius: 3px;
+  background-color: #feebb1;
+  /* make text unable to be selected */
+  -webkit-touch-callout: none;
+  -webkit-user-select: none; 
+  -khtml-user-select: none; 
+  -moz-user-select: none; 
+  -ms-user-select: none; 
+  user-select: none;
+  transition: box-shadow 0.3s ease-in-out, border 0.3s ease-in-out;
+}
+
+.big_boxes p {
+  display: inline-block;
+  margin-left: 20px;
+  line-height: 80px;
+}
+
+.big_inner_box {
+  display: flex;
+  flex-direction: row;
+}
+
+.big_boxes:hover {
+  border: 1px solid #142a50;
+  box-shadow: 0 5px 15px gray;
+}
+
+.pic_box {
+  width: 250px;
+  height: 300px;
+  background-color: #b3c1d1;
+  margin-left: 20px;
+}
+
+.pic_box img {
+  width: 250px;
+  height: 300px;
+  object-fit: fill;
+}
+
+.text_container {
+  width: 485px;
+  height: 300px;
+  margin-left: 20px;
+
+}
+
+.text_container p{
+  font-weight: normal;
+  line-height: 30px;
+  width: 450px;
+  height: 200px;
+  overflow-y: auto;
+}
+
+.list_info {
+  width: 350px;
+  font-weight: normal;
+  font-size: 17px;
+}
+
+ul {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+li {
+  margin-bottom: 15px;
+}
+
+li span {
+  width: 100px;
+  display: inline-block;
+}
+
+@media(max-width: 1000px){
+
+body {
+  width:100%;
+}
+
+.logo_contain {
+  width: auto;
+  padding-left: 0px;
+  height: 50px;
+  padding-bottom: 35px;
+}
+
+.finder_logo {
+  width: 200px;
+  position: absolute;
+  right: 25px
+}
+
+h2{
+  font-size: 28px;
+  width: 90%;
+  margin-top: 14px;
+}
+
+.small_boxes{
+  width: 88%;
+  height: 45px;
+  margin-left: 4.5%;
+}
+
+.small_boxes p {
+  line-height: 43px;
+}
+
+.big_boxes {
+  width: 88%;
+  margin-left: 4.5%;
+  height: 27%;
+}
+
+.big_inner_box {
+  width: 94%;
+  margin-left: 3%;
+  height: 25%;
+}
+
+.pic_box {
+  width: 45%;
+  background-color: #b3c1d1;
+  margin-left: 4px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.pic_box img {
+  width: 97%;
+  object-fit: contain;
+  height: auto;
+}
+
+.text_container {
+  width: 48%;
+  height: auto;
+  margin-left: 12px;
+  margin-bottom: 10px;
+}
+
+.text_container p{
+  font-weight: normal;
+  line-height: 30px;
+  width: 100%; /* auto */
+  height: 200px;
+  margin-left: 8px;
+}
+
+ul {
+  margin-left: 8px;
+  margin-top: 5px;
+}
+
+.list_info {
+  width: 100%;
+  font-size: 15px;
+}
+
+li span {
+  width: 100%;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+}

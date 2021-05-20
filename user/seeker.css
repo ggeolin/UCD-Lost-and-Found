@@ -1,0 +1,471 @@
+/* seeker.html CSS Element */
+body{
+  background-color: #b3c1d1;
+  font-family: 'Montserrat',sans-serif;
+  font-weight: bold;
+  color: #142a50;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #142a50 !important; 
+}
+
+button {
+  margin-top: 20px;
+  background-color: #daab27;
+  font-size: 25px;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+  margin-left: 76%;
+  width: 150px;
+  height: 70px;
+  box-shadow: 0 0 7px gray !important;
+  transition: box-shadow 0.3s ease-in-out !important;
+}
+
+button:hover {
+  box-shadow: 0 10px 10px gray !important;
+}
+
+#Title {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  background-color: #e5e5e5;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  box-sizing: border-box;
+}
+
+#search_title {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  background-color: #e5e5e5;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  box-sizing: border-box;
+}
+
+#img {
+  display: block;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+#category {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  background-color: #e5e5e5;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  box-sizing: border-box;
+}
+
+#search_category {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  background-color: #e5e5e5;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  box-sizing: border-box;
+}
+
+
+
+.logo_contain {
+  margin: auto;
+  width: 300px;
+  height: 150px;
+  padding: 20px;
+  padding-bottom: 0px;
+}
+
+.seeker_logo {
+  width: 300px;
+}
+
+.seeker_main_box {
+  border-radius: 3px;
+  padding: 50px;
+  margin: auto;
+  width: 700px;
+  height: 500px;
+
+}
+
+.seeker_main_box h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.seeker_form_box_1 {
+  display: block;
+  border-radius: 3px;
+  background-color: white;
+  padding: 25px;
+          /* rememeber to change */
+          /* display: none; */
+}
+
+.seeker_description_box {
+  background-color: #e5e5e5;
+  width: 96%;
+  height: 200px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  padding: 12px;
+}
+
+#text {
+  width: 100%;
+  height: 200px;
+  overflow: auto;
+  outline: none;
+  font-size: 12px;
+  color: black;
+  font-weight: normal;
+}
+
+#seeker_next_buttn {
+  display: block;
+  background-color: #daab27;
+  font-size: 25px;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+  margin-left: 76%;
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+}
+
+#seeker_next_buttn:hover {
+  box-shadow: 5px 10px #888888;
+}
+
+
+.seeker_form_box_2 {
+  margin-bottom: 50px;
+  display: none;
+  border-radius: 3px;
+  background-color: white;
+  padding: 25px;
+          /* rememeber to change */
+          /* display: none; */
+}
+
+.seeker_input_form {
+  display: none;
+  margin-bottom: 50px;
+  border-radius: 3px;
+  background-color: white;
+  padding: 25px;
+}
+
+#date {
+  display: block;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+#search_date {
+  display: block;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.Location_box {
+  background-color: #e5e5e5;
+  border-radius: 3px;   
+  width: 100%;
+  height: 50px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+#location_info {
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  padding: 15px;
+  width: 95%;
+  height: 17px;
+}
+
+#search_location_info {
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  padding: 15px;
+  width: 95%;
+  height: 17px;
+}
+
+/* #seeker_formBox_2 button {
+  margin-top: 20px;
+  background-color: #daab27;
+  font-size: 25px;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+  margin-left: 76%;
+  width: 150px;
+  height: 70px;
+}
+
+#seeker_formBox_2 button:hover {
+  box-shadow: 5px 10px #888888
+} */
+
+#confirm_buttn {
+  display: none;
+  cursor: pointer;
+}
+
+#submit_buttn {
+  display: none;
+  cursor: pointer;
+}
+
+#search_confirm {
+  display: none;
+  cursor: pointer;
+}
+
+#search_submit {
+  display: none;
+  cursor: pointer;
+}
+
+.redirect_box {
+  width: 60%;
+  height: 50px;
+  border-radius: 3px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #daab27;
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+  transition: width 0.5s;
+}
+
+.redirect_logo {
+  width: 50px;
+  height: 50px;
+  
+}
+
+.redirect_text {
+  font-size: 24px;
+  padding: 10px;
+  width: 400px;
+  height: 30px;
+}
+
+.redirect_box:hover {
+  box-shadow: 0 0 12px #142a50;
+  width: 65%;
+}
+
+
+#map {
+  width: 100%;
+  height: 500px;
+}
+
+#map2 {
+  width: 100%;
+  height: 500px;
+}
+
+
+@media(max-width: 1000px) {
+  
+  body{
+    width: auto;
+}
+
+  .logo_contain {
+    width: auto;
+    padding-left: 0px;
+    height: 50px;
+}
+  
+  .seeker_logo {
+    width: 150px;
+    position: absolute;
+    right: 25px
+}
+  
+  
+ .seeker_main_box {
+    width: auto;
+   padding: 8%;
+}
+  
+  .seeker_main_box h2 {
+    font-size: 1.6rem;
+    margin-bottom: 14px;
+}
+  
+  label {
+    font-size: 1.0rem;
+  }
+  
+  #Title {
+    height: 33px;
+  }
+  
+  #search_title {
+    height: 33px;
+  }  
+
+  #category {
+    height: 33px;
+}
+  
+  #search_category{
+    height: 33px;
+  }
+  
+  .seeker_description_box {
+    height: 150px;
+}
+  
+#seeker_next_buttn {
+    width: 80px;
+    height: 30px;
+    font-size: 1.2rem;
+    position: relative;
+    margin-right: 10px;
+    margin-left: 87%;
+}  
+  
+  #seeker_formBox_2 button {
+    margin-left: 60%;
+    width: 100px;
+    height: 40px;
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: 6%;
+}
+  
+  button {
+    margin-left: 60%;
+    width: 100px;
+    height: 40px;
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: 6%;
+  }
+  
+  
+  .Location_box {
+    height: 33px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+#location_info {
+    width: auto;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-top: 8px;
+    font-size: 14px;
+}
+  
+#search_location_info {
+    width: auto;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-top: 8px;
+    font-size: 14px;
+}
+  
+  #map {
+    margin-top: 18px;
+}
+  
+  .redirect_box {
+    width: auto;
+    height: 37px;
+    justify-content: space-between;
+    padding-right: 8px;
+}
+
+.redirect_logo {
+    width: 28px;
+    height: 28px;
+    padding-top: 3px;
+    position: relative;
+}
+
+.redirect_text {
+    font-size: 1.3rem;
+    padding: 0px;
+    padding-top: 8px;
+    padding-left: 12px;
+    height: 32px;
+}
+  
+  
+}
+
+@media(max-width: 1000px){
+  
+  #text {
+    height: 150px;
+  }
+}
+
+@media(max-width: 680px){
+  
+  #seeker_next_buttn {
+    margin: auto;
+  }
+
+  .redirect_text {
+      font-size: 20px;
+  }
+
+  .seeker_description_box {
+      width: 95%;
+  }
+
+}
+
+@media(max-width: 510px) {
+    .seeker_description_box {
+        width: 92%;
+    }
+
+    .redirect_text {
+      font-size: 15px;
+  }
+}
+
+@media(max-width: 321px) {
+    .redirect_text {
+        font-size: 14px;
+    }
+}

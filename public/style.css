@@ -1,0 +1,96 @@
+body{
+  display: flex;
+  flex-direction: row-reverse;
+}
+.image_box {
+  background: url(https://cdn.glitch.com/73714b8a-3cd4-4a8b-8e92-66e25ae088cf%2FShields-entrance_Credit-Hector-Villicana_1924x1282-960x600-c-center.jpg?v=1590279834987);
+  height: 100vh;
+  width: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.blue_half {
+  height: 100vh;
+  width: 50%;
+  background-color: #365c85;
+  right: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.page_logo {
+  width: 500px;
+  margin: auto;
+  margin-top: 300px;
+  margin-bottom: 10%;
+}
+
+.login_box {
+  margin: auto;
+  border-radius: 5px;
+  width: 250px;
+  height: 50px;
+  background-color: white;
+  left: 380px;
+  top: 500px;
+  display: flex;
+  flex-direction: row-reverse;
+  transition: width 0.5s;
+}
+
+.login_box:hover {
+  width: 260px;
+  box-shadow: 0 0 10px black;
+}
+
+.login_box img {
+  flex: 1;
+  height: 80%;
+  width: 25%;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.login_box p {
+  font-family: 'Montserrat',sans-serif;
+  font-weight: bold;
+  
+  margin: auto;
+  flex: 5;
+  left: 100px;
+  top: 19px;
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+
+@media(max-width: 1000px) {
+  body {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .image_box {
+    background: url(https://cdn.glitch.com/73714b8a-3cd4-4a8b-8e92-66e25ae088cf%2FShields-entrance_Credit-Hector-Villicana_1924x1282-960x600-c-center.jpg?v=1590279834987);
+    height: 50vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .blue_half {
+    width: 100%;
+    height: 100vh;
+  }
+
+  .page_logo {
+    width: 300px;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 10%;
+  }
+}
